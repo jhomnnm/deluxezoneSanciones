@@ -32,12 +32,12 @@ const MONGODB_URI = process.env.MONGODB_URI;
 
 // Configuración de canales de Discord
 const CANALES_CONFIG = {
-  '1424754617551425697': {
+  '1377094950050856960': {
     nombre: 'Baneos',
     tipo: 'baneo',
     plantilla: '🚫 Usuario baneado'
   },
-  '1424754731569381548': {
+  '1377094889925246976': {
     nombre: 'Muteos',
     tipo: 'muteo',
     plantilla: '🔇 Usuario muteado'
@@ -46,10 +46,10 @@ const CANALES_CONFIG = {
 
 // Configuración de roles autorizados para comandos administrativos
 const ROLES_AUTORIZADOS = [
-  '1234567890123456789', // ID del rol Admin
-  '9876543210987654321', // ID del rol Moderador
-  '1111111111111111111'  // ID del rol Staff
-  // Agrega aquí las IDs de los roles que pueden usar los comandos
+  '1377083784427471001', // ID del rol dueño
+  '1382129207559323648', // ID del rol manager
+  '1377083784406503473'  // ID del rol admin
+  
 ];
 
 // ==========================================
